@@ -14,8 +14,6 @@ function _drawTodos() {
   document.getElementById('todos').innerHTML = template
 }
 
-// template += t.TodoTemplate
-
 export default class TodoController {
   constructor() {
     ProxyState.on("todos", _drawTodos)
@@ -43,6 +41,8 @@ export default class TodoController {
     } catch (error) {
       console.error(error)
     }
+
+    form.reset()
   }
 
   /**

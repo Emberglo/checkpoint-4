@@ -81,16 +81,22 @@ main {
 	width: 100vw;
 }
 
+.img {
+	background-image: url(`${this.url}`);
+	background-size: cover;
+}
+
 .complete {
 	text-decoration: line-through;
 }
 
-.col-4 {
+.col,
+.col-6 {
 	height: 100vh;
 }
 
 .todoItem {
-	background-color: rgba(44, 53, 45, 0.5);
+	background-color: rgba(44, 53, 45, 0.4);
 	color: rgba(248, 248, 248, 1);
 }
 
