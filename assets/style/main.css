@@ -74,6 +74,7 @@ body {
 	color: #212529;
 	text-align: left;
 	background-color: #f2f2f2;
+	background-size: cover;
 }
 
 main {
@@ -81,10 +82,10 @@ main {
 	width: 100vw;
 }
 
-.img {
+/* .img {
 	background-image: url(`${this.url}`);
 	background-size: cover;
-}
+} */
 
 .complete {
 	text-decoration: line-through;
