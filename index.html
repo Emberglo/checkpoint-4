@@ -7,6 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <script src="https://kit.fontawesome.com/ddd895b5f6.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="assets/style/main.css">
+    <link rel="stylesheet" href="assets/style/clock.css">
     <title>Inspire</title>
 </head>
 
@@ -21,9 +22,57 @@
                     <!-- img credit template  -->
                 </div>
             </div>
-            <div id="center" class="col-6 d-flex flex-column justify-content-between align-items-center p-5">
-                <div id="clock">
-                    <!-- clock template here -->
+            <div id="center" class="col-8 d-flex flex-column justify-content-between align-items-center p-5">
+                <div id="clockContainer" class="p-2 rounded todoItem">
+                <!-- CLOCK -->
+                    <div class="clock">
+                        <div class="container-fluid">
+                            <div class="row justify-content-center">
+                                <div class="col-12">
+                                    <div class="container-fluid">
+                                        <div class="row">
+                                            <div class="col-2 hour1">
+                                                <div id="h-1-8" class="circle inactive"></div>
+                                                <div id="h-1-4" class="circle inactive"></div>
+                                                <div id="h-1-2" class="circle active off h-1-2"></div>
+                                                <div id="h-1-1" class="circle active off h-1-1"></div>
+                                            </div>
+                                            <div class="col-2 hour2">
+                                                <div id="h-2-8" class="circle active off h-2-8"></div>
+                                                <div id="h-2-4" class="circle active off h-2-4"></div>
+                                                <div id="h-2-2" class="circle active off h-2-2"></div>
+                                                <div id="h-2-1" class="circle active off h-2-1"></div>
+                                            </div>
+                                            <div class="col-2 minute1">
+                                                <div id="m-1-8" class="circle inactive"></div>
+                                                <div id="m-1-4" class="circle active off m-1-4"></div>
+                                                <div id="m-1-2" class="circle active off m-1-2"></div>
+                                                <div id="m-1-1" class="circle active off m-1-1"></div>
+                                            </div>
+                                            <div class="col-2 minute2">
+                                                <div id="m-2-8" class="circle active off m-2-8"></div>
+                                                <div id="m-2-4" class="circle active off m-2-4"></div>
+                                                <div id="m-2-2" class="circle active off m-2-2"></div>
+                                                <div id="m-2-1" class="circle active off m-2-1"></div>
+                                            </div>
+                                            <div class="col-2 second1">
+                                                <div id="s-1-8" class="circle inactive"></div>
+                                                <div id="s-1-4" class="circle active off s-1-4"></div>
+                                                <div id="s-1-2" class="circle active off s-1-2"></div>
+                                                <div id="s-1-1" class="circle active off s-1-1"></div>
+                                            </div>
+                                            <div class="col-2 second2">
+                                                <div id="s-2-8" class="circle active off s-2-8"></div>
+                                                <div id="s-2-4" class="circle active off s-2-4"></div>
+                                                <div id="s-2-2" class="circle active off s-2-2"></div>
+                                                <div id="s-2-1" class="circle active off s-2-1"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
                 <div id="quote" class="p-2 todoItem rounded shadow">
                     <!-- quote template here -->

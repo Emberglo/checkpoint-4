@@ -28,6 +28,10 @@ class TodoService {
   async toggleTodoStatus(todoId) {
     let todo = await ProxyState.todos.find(todo => todo.id == todoId);
 
+    // todo.completed !todo.completed
+    //or
+    //todo.completed = todo.completed ? false : true
+
     if (todo.completed == false) {
       todo.completed = true
       if (todo.completed == true) {
