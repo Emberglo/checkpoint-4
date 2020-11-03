@@ -2,6 +2,10 @@
   border: solid 1px;
 }
 
+#clockContainer {
+  margin-top: 9em;
+}
+
 /* html {
   background-image: url("http://www.dreamtemplate.com/dreamcodes/bg_images/color/c10.jpg");
 } */
