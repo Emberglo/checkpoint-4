@@ -14,7 +14,7 @@ class TodoService {
 
   async getTodos() {
     let res = await api.get("ryan/todos");
-    let todoList = res.data.data.map(t => new Todo(t))
+    let todoList = res.data.map(t => new Todo(t))
     ProxyState.todos = todoList
     // @ts-ignore
     document.getElementById('taskQty').innerText = ProxyState.todos.length
